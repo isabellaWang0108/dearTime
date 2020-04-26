@@ -1,5 +1,6 @@
 # dearTime
 This is a horror story of over engineering on the UX experimentation on How to get a chronically late-friend on time. We spent entire week developed a product trying to validate out idea, but the answer to our question doesn't even need a high tech solution.
+![Prototype](https://wangx733.github.io/dearTime/images/prototype.png "Prototype")
 
 ## demo
 Since we use Google Auth to fetch personal data from Google Calendar, app can no longer fully functioning due to changing Google's privacy policies.The Google auth is being disabled. But you can watch the video record of what we made!
