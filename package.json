@@ -1,0 +1,22 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts/googleSignIn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangx733/project1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangx733/project1/issues"
+  },
+  "homepage": "https://github.com/wangx733/project1#readme",
+  "dependencies": {
+    "nexmo": "^2.4.1"
+  }
+}

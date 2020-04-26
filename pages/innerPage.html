@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dear Time</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
+    <link href="../assets/style.css" rel="stylesheet"></link>
+</head>
+
+<body>
+    <div id="allTheInnerPage">
+
+        <div class="topBar"></div>
+        <h2 class="innerPage">Your Events</h2>
+        <button class="signIn" id="signOut">Sign out</button>
+        <!-- search function is here -->
+        <label><img src="../assets/images/search.png"></label>
+        <input type="search" id="siteSearch" placeholder="Search event by name or date">
+
+        <!-- Please read the following lines!!! -->
+        <!-- Please read the following lines!!! -->
+        <!-- Please read the following lines!!! -->
+        <!-- Please read the following lines!!! -->
+        <!-- this is sample look  -->
+        <!-- Please append elements into corresponding id and class names!! -->
+
+
+
+
+        <!-- This is the unit for all the dynamic information from Calendar -->
+        <div id="container-for-content">
+
+            <table class="eventsInDate">
+                <tr>
+                    <h5 class="date">
+                        <div class="bullet"></div>
+                        May 00 2019
+                    </h5>
+                </tr>
+                <tr>
+                    <td class="event">
+                        <h4 class="eventTitle">Park</h4>
+                        <p class="address"> 000 east 00 street, NY, dnjsnkjdnskmccsc </p>
+
+                        
+                        <p class="minutesBeforeClass">arrive<input type="text" class="minuteBefore" value="5">mins ahead</p>
+
+                    </td>
+                </tr>
+            </table>
+
+            <table class="eventsInDate">
+                <tr>
+                    <h5 class="date">
+                        <div class="bullet"></div>
+                        May 00 2019
+                    </h5>
+                </tr>
+                <tr>
+                    <td class="event">
+                        <h4 class="eventTitle">Disney</h4>
+                        <p class="address"> 000 east 00 street, NY, dnjsnkjdnskmccsc </p>
+                        <p class="arrivalTimeClass">arrival time:
+                            <bold class="arrivalTime">5pm</bold>
+                        </p>
+                        <p class="minutesBeforeClass">arrive<input type="text" class="minuteBefore" value="5">mins ahead</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="event">
+                        <h4 class="eventTitle">paRk</h4>
+                        <p class="address"> 000 east 00 street, NY, dnjsnkjdnskmccsc </p>
+                        <p class="arrivalTimeClass">arrival time:
+                            <bold class="arrivalTime">6pm</bold>
+                        </p>
+                        <p class="minutesBeforeClass">arrive<input type="text" class="minuteBefore" value="5">mins ahead</p>
+                    </td>
+                </tr>
+
+            </table>
+
+                   </table>
+
+                </div>       
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
+    <script src="../scripts/account.js"></script>
+    <script src="../scripts/inner.js"></script>
+    <!-- <script src="../scripts/notification.js"></script> -->
+
+</body>
+
+</html>

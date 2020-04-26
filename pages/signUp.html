@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id" content="904494310957-snk9h5ndi37tl0h4emhho96llkpm10v7.apps.googleusercontent.com">
+    <title>Dear Time</title>
+    <link href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css" rel="stylesheet"> </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
+    <link href="../assets/style.css" rel="stylesheet"></link>
+</head>
+
+<body>
+    <div id="allTheSignUp">
+
+        <h2 class="animated slideInUp fast">Tell us about you</h2>
+
+
+        <input type="text" class="animated fadeIn slow" id="name" placeholder="Your First Name">
+        <input type="tel" class="animated fadeIn slow" id="number" placeholder="Your Phone Number">
+
+        <section class="animated fadeIn slow">
+            <h4>Usually how long do you prefer to arrive before your events?</h4>
+            <input type="text" id="preferredTime" placeholder="15"><label>minutes</label>
+
+            <h4>How do you prefer us to notify you?</h4>
+
+            <!-- checkbox for text, which is mendatory -->
+
+            <div class="pretty p-default p-fill">
+                <input type="checkbox" id="textChecked" checked/>
+                <div class="state p-sucess">
+                    <label>Notification</label><span> (Required)</span>
+                </div>
+            </div>
+
+
+            <!-- checkbox for call -->
+            <div class="pretty p-default p-fill">
+                <input type="checkbox" id="callChecked" />
+                <div class="state p-sucess">
+                    <label>Call<span> (Charged)</span></label>
+                </div>
+            </div>
+            <br>
+
+            <!-- After users sync the calendar, button Ready to go shows up -->
+            <div id="authorize_button"></div>
+
+
+        </section>
+        <div class="background"></div>
+
+    </div>
+
+    <div id="signOut">
+        <div class="topBar"></div>
+        <h2 class="innerPage">Your Events</h2>
+        <!-- search function is here -->
+        <label><img src="../assets/images/search.png"></label>
+        <input type="search" id="siteSearch" placeholder="Search event by name or date">
+        <button id="signout_button" style="display: none;">Sign Out</button>
+        <div id="container-for-content">
+
+            <h5 class="date"></h5>
+
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/googleSignIn.js">
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+    <!-- <script src="../scripts/notification.js"></script> -->
+
+    <!-- <script src="../scripts/calendar.js"></script> -->
+
+    <!-- <script src="../scripts/notification.js"></script> -->
+
+</body>
+
+</html>
