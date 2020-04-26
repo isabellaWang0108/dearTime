@@ -4,6 +4,7 @@ This is a horror story of over engineering on the UX experimentation on How to g
 
 ## demo
 Since we use Google Auth to fetch personal data from Google Calendar, app can no longer fully functioning due to changing Google's privacy policies.The Google auth is being disabled. But you can watch the video record of what we made!
+
 [![Recorded demo]( https://wangx733.github.io/dearTime/images/dearTimeDisplay.jpg)](https://youtu.be/UAfmD_vbJrU)
 
 ## Problem statement
