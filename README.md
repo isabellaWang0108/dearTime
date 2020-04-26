@@ -9,7 +9,7 @@ Since we use Google Auth to fetch personal data from Google Calendar, app can no
 
 ## Problem statement
 The inspiration for this project is from the always-late classmates at Bootcamp.Sometimes it is annoying to have a teammate being late to discussion in the morning, so my team and I came up with this idea that how to make our chronically late friend on time for class
-(https://wangx733.github.io/dearTime/images/persona.jpg)
+![Personas](https://wangx733.github.io/dearTime/images/persona.jpg)
 
 
 ## Testing point
