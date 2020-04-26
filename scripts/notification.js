@@ -20,12 +20,11 @@ function createMsg(origin, destination, year, month, hour, day, minute, preferre
     var notificationTime = eventTime.subtract(travelTime, "minutes").subtract(preferredTimeBefore, "minutes"); //subracts time it takes to arrive
     // get the actual time that we will execute the time AND THIS IS THE TIME U SEND THE TEXT
     var timeLeftTillText = notificationTime.diff(now, "seconds") * 100;
-    console.log(timeLeftTillText)
 
     // this is our default virtual number
 
     // set message receiver
-    var to = '19083916750';
+    var to = '...';
     // make the text dynamic
     var linkInText = "https://www.google.com/maps/dir/?api=1&origin=" + origin + "&destination=" + destination;
     var text = 'Hello, this is Dear Time. Thanks for subscribing us. We will help you to get to your place on time. Click here to see the route: ' + linkInText;
